@@ -80,7 +80,7 @@ Thanks to the creators of this dataset **Philip Schmidt, Attila Reiss, Robert Du
 ├── 📁 notebooks/
 │   └── Stress_Emotion_Detection.ipynb
 ├── 📁models/
-|    ├── feature_scaler.pkl       # Fitted StandardScaler instance
+     ├── feature_scaler.pkl       # Fitted StandardScaler instance
      ├── selected_features.pkl    # Serialized list of columns passing VarianceThreshold
      └── final_model.pkl          # Exported serialization of the optimized classifier
 ```

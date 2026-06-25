@@ -80,13 +80,22 @@ Thanks to the creators of this dataset **Philip Schmidt, Attila Reiss, Robert Du
 ├── 📁 notebooks/
 │   └── Stress_Emotion_Detection.ipynb
 ├── 📁models/
-|    └──Processed .pkl files
+|    ├── feature_scaler.pkl       # Fitted StandardScaler instance
+     ├── selected_features.pkl    # Serialized list of columns passing VarianceThreshold
+     └── final_model.pkl          # Exported serialization of the optimized classifier
 ```
 
 ## How to Run
 
 ```bash
+# Initialize and activate virtual environment
+python -m venv .venv
+source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+
+# Installing Requirements
 pip install -r requirements.txt
+
+#Launching Notebook File
 jupyter notebook notebooks/ Stress_Emotion_Detection.ipynb
 ```
 

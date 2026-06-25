@@ -1,0 +1,7 @@
+# ignorables
+.venv/
+*/.ipynb_checkpoints/
+
+stress-emotion-detection-wesad/data/raw/S*.pkl
+
+!stress-emotion-detection-wesad/data/raw/.gitkeep
